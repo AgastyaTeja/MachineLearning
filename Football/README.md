@@ -7,12 +7,25 @@ When Leicester City won the English Premier League in 2015/2016 season with 5000
 
 ## Install
 
-This project requires Python 3.6 and the following Python libraries installed:
+This project requires [Python 3.6](https://www.python.org/) and the following Python libraries installed:
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-- [matplotlib](http://matplotlib.org/)
+- [Scikit-learn](http://scikit-learn.org/)
+- [Matplotlib](http://matplotlib.org/)
+- [xlrd](https://pypi.org/project/xlrd/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+You will also need to have software installed to run and execute a [Jupyter Notebook](https://jupyter.org/)
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
+## Run
+
+In a terminal or command window, navigate to the top-level project directory `Football/` and run one of the following commands:
+
+```bash
+ipython notebook EPL_WinPrediction.ipynb
+```  
+or
+```bash
+jupyter notebook EPL_WinPrediction.ipynb
+```
+
+This will open the Jupyter Notebook software and project file in your browser.
